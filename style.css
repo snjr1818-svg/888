@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+ background-color:#0a0c14bc ;   
+}
+header{
+    background-color: #0c0e18c5;
+}
+nav{
+    display: flex;
+  justify-content: space-around;
+}
+.start{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.btn{
+    background-color: #BFAFF2;
+    border-radius: 20px;
+    padding: 8px 35px;
+    border: none;
+}
+
+.dropdown{
+      /*kalit*/
+    position: relative;
+    display: inline-block;  
+    margin-right: 90px;  
+}
+.dropbtn{
+    border: none;
+    background-color:#0c0e18af;
+    color: white;
+    font-size: 17px;
+    padding: 6px 18px;
+}
+.dropdown-content{
+    /*kalit*/
+    display: none;
+    position: absolute;
+    background-color: #232028;
+    width: 100%;
+    box-shadow: -2px 1px 1px 1px white;
+    z-index: 1;
+    border-radius: 10px;
+}
+.dropdown-content a{
+    color: white;
+    padding: 4px 10px;
+    background-color: rgba(0, 0, 0, 0.868);
+    border-radius: 10px;
+    display: block;
+}
+.dropdown-content a:hover{
+    color: black;
+    background-color: #BFAFF2;
+}
+.dropdown:hover .dropdown-content {
+    /*kalit*/
+    display: block;
+}
+main {
+    width: 100%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+
+}
+
+.card {
+    width: 24%;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: +24px;
+}
+
+.text {
+    background-color: #242124;
+    border-radius: 25px;
+    padding: 25px 15px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+.text h2 {
+    color: white;
+    font-size: 28px;
+    margin: 0 0 10px;
+}
+
+.text p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.25;
+    margin: 0;
+}
+footer{
+    height: 50px;
+    background-color: #0c0e18c5;
+    margin-top:100px ;
+  display: flex;
+}
+.end{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 800px;
+}
+.end a{ 
+    color: white;
+}
